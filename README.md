@@ -2452,4 +2452,4 @@ Forth: [19,19]
 Current result for starting position [19,16] (vertically) is: 5438256
 The values are 89 * 19 * 67 * 48 = 5438256
 
-Process finished with exit code 0
+Process finished with exit code 0 
