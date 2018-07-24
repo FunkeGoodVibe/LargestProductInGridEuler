@@ -30,19 +30,14 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 <br/>
 
 ### Testing by printing output to screen
-<br/>
-<br/>
 HORIZONTAL 4 POINTS: <br/>
 Start: [0,0] <br/>
 Second:[0,1] <br/>
 Third: [0,2] <br/>
 Forth: [0,3]<br/>
-<br/>
 Current result for starting position [0,0] (vertically) is: 34144<br/>
 The values are 08 * 02 * 22 * 97 = 34144<br/>
 The current maximum result is 34144 <br/>
-<br/>
-<br/>
 
 HORIZONTAL 4 POINTS: <br/>
 Start: [0,1] <br/>
@@ -52,8 +47,6 @@ Forth: [0,4]<br/>
 Current result for starting position [0,1] (vertically) is: 162184<br/>
 The values are 02 * 22 * 97 * 38 = 162184<br/>
 The current maximum result is 162184 <br/>
-<br/>
-<br/>
 
 HORIZONTAL 4 POINTS: <br/>
 Start: [0,2] <br/>
@@ -62,12 +55,8 @@ Third: [0,4] <br/>
 Forth: [0,5]<br/>
 Current result for starting position [0,2] (vertically) is: 1216380<br/>
 The values are 22 * 97 * 38 * 15 = 1216380<br/>
-The current maximum result is 1216380 <br/>
-
-<br/>
-<br/>
-
-<br/>etc ..... etc......<br/><br/>
+The current maximum result is 1216380 
+<br/>etc ..... etc......<br/>
 HORIZONTAL 4 POINTS: <br/>
 Start: [0,3] <br/>
 Second:[0,4] <br/>
@@ -81,11 +70,8 @@ Start: [19,13] <br/>
 Second:[19,14] <br/>
 Third: [19,15] <br/>
 Forth: [19,16]<br/>
-<br/>
 Current result for starting position [19,13] (vertically) is: 199004<br/>
 The values are 43 * 52 * 01 * 89 = 199004<br/>
-<br/>
-<br/>
 
 HORIZONTAL 4 POINTS: <br/>
 Start: [19,14] <br/>
@@ -94,8 +80,7 @@ Third: [19,16] <br/>
 Forth: [19,17]<br/>
 Current result for starting position [19,14] (vertically) is: 87932<br/>
 The values are 52 * 01 * 89 * 19 = 87932<br/>
-<br/>
-<br/>
+
 HORIZONTAL 4 POINTS: <br/>
 Start: [19,15] <br/>
 Second:[19,16] <br/>
@@ -103,7 +88,6 @@ Third: [19,17] <br/>
 Forth: [19,18]<br/>
 Current result for starting position [19,15] (vertically) is: 113297<br/>
 The values are 01 * 89 * 19 * 67 = 113297<br/>
-<br/>
 
 HORIZONTAL 4 POINTS: <br/>
 Start: [19,16] <br/>
@@ -112,6 +96,5 @@ Third: [19,18] <br/>
 Forth: [19,19]<br/>
 Current result for starting position [19,16] (vertically) is: 5438256<br/>
 The values are 89 * 19 * 67 * 48 = 5438256<br/>
-<br/>
 
 Process finished with exit code 0 
