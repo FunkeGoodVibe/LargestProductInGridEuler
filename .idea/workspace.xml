@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e732431-64c2-40da-88fc-5bd2e56b8e70" name="Default" comment="" />
+    <list default="true" id="5e732431-64c2-40da-88fc-5bd2e56b8e70" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/10_summationofprimes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_evenfibonaci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_largestprimefactor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_largestpalindromeproduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_smallestmultiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_sumsquaredifference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_10001stprime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_largestproductinseries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_specialpythagoreantriplet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_multiplethreefive.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_multiplethreefive.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,28 +26,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="1_multiplethreefive.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_multiplethreefive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_multiplethreefive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_multiplethreefive.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="2_evenfibonaci.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_evenfibonaci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="11_largestproductgrid.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11_largestproductgrid.py">
+      <file leaf-file-name="4_largestpalindromeproduct.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4_largestpalindromeproduct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_smallestmultiple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5_smallestmultiple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_sumsquaredifference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6_sumsquaredifference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7_10001stprime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7_10001stprime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8_largestproductinseries.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8_largestproductinseries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9_specialpythagoreantriplet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9_specialpythagoreantriplet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_summationofprimes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10_summationofprimes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_largestprimefactor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_largestprimefactor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -64,6 +140,16 @@
       <list>
         <option value="$PROJECT_DIR$/multiplethreefive.py" />
         <option value="$PROJECT_DIR$/11_largestproductgrid.py" />
+        <option value="$PROJECT_DIR$/1_multiplethreefive.py" />
+        <option value="$PROJECT_DIR$/3_largestprimefactor.py" />
+        <option value="$PROJECT_DIR$/2_evenfibonaci.py" />
+        <option value="$PROJECT_DIR$/4_largestpalindromeproduct.py" />
+        <option value="$PROJECT_DIR$/5_smallestmultiple.py" />
+        <option value="$PROJECT_DIR$/6_sumsquaredifference.py" />
+        <option value="$PROJECT_DIR$/7_10001stprime.py" />
+        <option value="$PROJECT_DIR$/8_largestproductinseries.py" />
+        <option value="$PROJECT_DIR$/9_specialpythagoreantriplet.py" />
+        <option value="$PROJECT_DIR$/10_summationofprimes.py" />
       </list>
     </option>
   </component>
@@ -76,16 +162,20 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="631" />
-    <option name="width" value="809" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="776" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +247,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="0" width="600" height="900" extended-state="0" />
+    <frame x="0" y="23" width="776" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
@@ -168,7 +257,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289941" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8962264" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289941" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39304122" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -176,13 +265,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="5" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +294,13 @@
     <entry file="file://$PROJECT_DIR$/1_multiplethreefive.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/11_largestproductgrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -218,10 +314,90 @@
     <entry file="file://$PROJECT_DIR$/1_multiplethreefive.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11_largestproductgrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_multiplethreefive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_largestprimefactor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_evenfibonaci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_largestpalindromeproduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_smallestmultiple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_sumsquaredifference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_10001stprime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_largestproductinseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_specialpythagoreantriplet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_summationofprimes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
