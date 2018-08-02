@@ -38,24 +38,25 @@ grid = [['08', '02', 22, 97, 38, 15, 00, 40, 00, 75, '04', '05', '07', 78, 52, 1
 #---------------------------------------------------------------
 
 def print_grid(arr):
-
+        print("\n\n")
         for i in range(20):
                 for j in range(20):
-                        print(arr[i][j])
-
+                        print('{0: <3}'.format(arr[i][j]), end = ' ')
+                print("")
+        print("\n\n")
+print_grid(grid)
 #---------------------------------------------------------------
 
 #  1) from the starting index, search the grid EAST direction only (west is implied)
 def horizontal_row_max(arr):
 
-    curr_res = 0
     max_res = 0          # initialise the current product, and the maximum product found so far.
-    row = 0
-    col = 0
 
-    for row in range(20):   #go to the LAST row (check1)
-        for col in range(17):   #go to the 4th to last column (i.e. do not fall off the grid)
-
+    for row in range(0,20):   #go to the LAST row (check1)
+        for col in range(0,17):   #go to the 4th to last column (i.e. do not fall off the grid)
+            print_grid(grid)
+            if (row < 0) or (row > 19) or (col < 0) or (col > 19):
+                break
             curr_res = int(grid[row][col]) * int(grid[row][col + 1]) * int(grid[row][col + 2]) * int(grid[row][col + 3])
             print("HORIZONTAL (EAST) 4 POINTS: \nStart: [{0},{1}] \nSecond:[{2},{3}] \nThird: [{4},{5}] \nForth: [{6},{7}]".format(row,col, row, col+1, row, col+2, row, col+3))
             print("Current result for starting position [{0},{1}] is: {2}".format(row, col, curr_res))
@@ -75,14 +76,13 @@ def horizontal_row_max(arr):
 # 2) from the starting index, search the grid SOUTH-EAST direction only (i.e. north-west is implied)
 def diagonal_right_max(arr):
 
-    curr_res = 0
     max_res = 0  # initialise the current product, and the maximum product found so far.
-    row = 0
-    col = 0
 
-    for row in range(17):  #
-        for col in range(17):  # end at the bottom, left-most corner (without falling off the grid)
-
+    for row in range(0,17):  #
+        for col in range(0,17):  # end at the bottom, left-most corner (without falling off the grid)
+            print_grid(grid)
+            if (row < 0) or (row > 19) or (col < 0) or (col > 19):
+                break
             curr_res = int(grid[row][col]) * int(grid[row + 1][col + 1]) * int(grid[row + 2][col + 2]) * int(grid[row + 3][col + 3])
             print("RIGHT DIAGONAL (SOUTH EAST) 4 POINTS: \nStart: [{0},{1}] \nSecond:[{2},{3}] \nThird: [{4},{5}] \nForth: [{6},{7}]".format(row, col, row+1, col+1, row+2, col+2, row+3, col+33))
             print("Current result for starting position [{0},{1}] is: {2}".format(row, col, curr_res))
@@ -101,14 +101,13 @@ def diagonal_right_max(arr):
 # 3) from the starting index, search the grid SOUTH direction only (north is implied)
 def vertical_col_max(arr):
 
-    curr_res = 0
     max_res = 0          # initialise the current product, and the maximum product found so far.
-    row = 0
-    col = 0
 
-    for row in range(17):   #go to the 4th to last row (i.e. do not fall off the grid row)
-        for col in range(20):   #go to the last column
-
+    for row in range(0,17):   #go to the 4th to last row (i.e. do not fall off the grid row)
+        for col in range(0,20):   #go to the last column
+            print_grid(grid)
+            if (row < 0) or (row > 19) or (col < 0) or (col > 19):
+                break
             curr_res = int(grid[row][col]) * int(grid[row + 1][col]) * int(grid[row + 2][col]) * int(grid[row + 3][col])
             print("VERTICAL (SOUTH) 4 POINTS: \nStart: [{0},{1}] \nSecond:[{2},{3}] \nThird: [{4},{5}] \nForth: [{6},{7}]".format(row,col, row+1, col, row+2, col, row+3, col))
             print("Current result for starting position [{0},{1}] is: {2}".format(row, col, curr_res))
@@ -127,16 +126,15 @@ def vertical_col_max(arr):
 # 4) from the starting index, search the grid SOUTH-WEST direction only (north-east is implied)
 def diagonal_left_max(arr):
 
-    curr_res = 0
     max_res = 0          # initialise the current product, and the maximum product found so far.
-    row = 3             #start at position [3,3] to ensure you do not fall of the grid
-    col = 3
 
-    for row in range(17):   #end at to the 4th to last row (i.e. do not fall off the grid row)
-        for col in range(20):   #go to the last column
-
+    for row in range(3,17):   #end at to the 4th to last row (i.e. do not fall off the grid row) #start at position [3,3] to ensure you do not fall of the grid
+        for col in range(3,20):   #go to the last column
+            print_grid(grid)
+            if (row < 0) or (row > 19) or (col < 0) or (col > 19):
+                break
             curr_res = int(grid[row][col]) * int(grid[row - 1][col - 1]) * int(grid[row - 2][col - 2]) * int(grid[row - 3][col - 3])
-            print("DIAGONAL LEFT (SOUTH-WEST) 4 POINTS: \nStart: [{0},{1}] \nSecond:[{2},{3}] \nThird: [{4},{5}] \nForth: [{6},{7}]".format(row,col, row-1, col-1, row-2, col-2, row-3, col-3))
+            print("DIAGONAL LEFT (SOUTH WEST) 4 POINTS: \nStart: [{0},{1}] \nSecond:[{2},{3}] \nThird: [{4},{5}] \nForth: [{6},{7}]".format(row,col, row-1, col-1, row-2, col-2, row-3, col-3))
             print("Current result for starting position [{0},{1}] is: {2}".format(row, col, curr_res))
             print("The values are", (grid[row][col]), "*", (grid[row-1][col-1]), "*", (grid[row-2][col-2]), "*", (grid[row-3][col-3]), "=", curr_res)
 
