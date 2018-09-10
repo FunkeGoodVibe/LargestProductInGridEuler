@@ -1,9 +1,7 @@
-# Problem provided during AlliedCrowds programming session
-# Task: Find greatest product of four adjacent numbers (up, down, left, right, or diagonally) in 20×20 grid
-#       IMPORTANT NOTE: this code contains many print statements
-#            this is only cosmetic as the print statements are not required to solve the problem
-#            delete the print statements if code cleanliness is required.
-
+# Problem: Find greatest product of four adjacent numbers (up, down, left, right, or diagonally) in 20×20 grid
+#          IMPORTANT NOTE: this code 'can' be completed in fewer lines of code, 
+                          # this solution contains many print statements, which are only cosmetic, just so you can see how I derived the solution.  
+                          # delete the print statement if code cleanliness is required. 
 # rc 01 02 03 04 05   'c'
 # 10 11 12 13 14 15
 # 20 21 22 23 24 25
