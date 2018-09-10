@@ -30,3 +30,7 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 <br/>
 
 https://projecteuler.net/problem=11
+
+------
+
+More problems available at http://www.hackerrank.com/funkegoodvibe
