@@ -5,7 +5,7 @@ def prime_count():
 
     curr_primes = []    #start with no prime numbers in the list
 
-    for n in range(2, 10002):   # ensure the last number is included (!)
+    for n in range(2, 10002):   # ensure the last number is included
 
         # Assume number is prime until shown it is not.
         isPrime = True
